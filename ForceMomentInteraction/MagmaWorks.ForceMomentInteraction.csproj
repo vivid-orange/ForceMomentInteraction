@@ -40,6 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="UnitsNet" Version="5.75.0" />
     <None Include="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
