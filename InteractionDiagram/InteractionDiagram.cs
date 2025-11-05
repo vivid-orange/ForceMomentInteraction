@@ -1,13 +1,13 @@
 ﻿using System.Threading.Tasks;
-using MagmaWorks.ForceMomentInteraction.Utility;
-using MagmaWorks.Geometry;
-using MagmaWorks.Taxonomy.Materials;
-using MagmaWorks.Taxonomy.Materials.StandardMaterials.En;
-using MagmaWorks.Taxonomy.Profiles;
-using MagmaWorks.Taxonomy.Sections;
+using VividOrange.ForceMomentInteraction.Utility;
+using VividOrange.Geometry;
+using VividOrange.Taxonomy.Materials;
+using VividOrange.Taxonomy.Materials.StandardMaterials.En;
+using VividOrange.Taxonomy.Profiles;
+using VividOrange.Taxonomy.Sections;
 using TriangleNet.Geometry;
 
-namespace MagmaWorks.ForceMomentInteraction
+namespace VividOrange.ForceMomentInteraction
 {
     public class InteractionDiagram
     {

@@ -1,4 +1,6 @@
-﻿namespace MagmaWorks.ForceMomentInteraction
+﻿using VividOrange.Taxonomy.Serialization;
+
+namespace VividOrange.ForceMomentInteraction
 {
-    public interface IForceMomentMesh : ICartesianMesh<IForceMomentVertex, IForceMomentTriFace, ICoordinate, Force, Moment, Moment>, IForceMomentInteraction { }
+    public interface IForceMomentMesh : ICartesianMesh<IForceMomentVertex, IForceMomentTriFace, ICoordinate, Force, Moment, Moment>, ITaxonomySerializable { }
 }

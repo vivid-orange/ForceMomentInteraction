@@ -1,9 +1,7 @@
 using ForceMomentInteractionTests.Utility;
-using MagmaWorks.ForceMomentInteraction;
-using MagmaWorks.ForceMomentInteraction.Serialization.Extensions;
-using MagmaWorks.Geometry;
-using UnitsNet;
-using UnitsNet.Units;
+using VividOrange.ForceMomentInteraction;
+using VividOrange.Taxonomy.Serialization;
+using VividOrange.Geometry;
 
 namespace ForceMomentInteractionTests.UnitTests
 {

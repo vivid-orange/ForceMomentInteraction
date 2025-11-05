@@ -1,6 +1,6 @@
 ﻿using MIConvexHull;
 
-namespace MagmaWorks.ForceMomentInteraction.Utility
+namespace VividOrange.ForceMomentInteraction.Utility
 {
     internal class ConvexHullVertex : IVertex
     {

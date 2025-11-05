@@ -9,16 +9,17 @@
     <TargetFrameworks>net48;net6.0;net7.0;net8.0</TargetFrameworks>
     <LangVersion>8.0</LangVersion>
     <Platforms>AnyCPU</Platforms>
-    <RootNamespace>MagmaWorks.ForceMomentInteraction.Serialization</RootNamespace>
+    <RootNamespace>VividOrange.ForceMomentInteraction.Serialization</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
-    <Title>MagmaWorks Force-Moment Interaction Serialization</Title>
-    <Company>Whitby Wood</Company>
+    <Title>Vivid Orange Force-Moment Interaction Serialization</Title>
+    <Description>Section Properties for Structural Engineering analysis and design</Description>
+    <Company>Vivid Orange</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/MagmaWorks/ForceMomentInteraction/Serialization</RepositoryUrl>
-    <PackageIcon>MagmaWorks.png</PackageIcon>
+    <RepositoryUrl>https://github.com/vivid-orange/ForceMomentInteraction/</RepositoryUrl>
+    <PackageIcon>VividOrange.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -46,15 +47,15 @@
       <Pack>True</Pack>
       <PackagePath>\Licenses\</PackagePath>
     </None>
-    <None Include="..\MagmaWorks.png">
+    <None Include="..\VividOrange.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ForceMomentInteraction\MagmaWorks.ForceMomentInteraction.csproj" />
-    <ProjectReference Include="..\IForceMomentInteraction\MagmaWorks.IForceMomentInteraction.csproj" />
+    <ProjectReference Include="..\ForceMomentInteraction\VividOrange.ForceMomentInteraction.csproj" />
+    <ProjectReference Include="..\IForceMomentInteraction\VividOrange.IForceMomentInteraction.csproj" />
   </ItemGroup>
 
 </Project>
