@@ -22,9 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ForceMomentInteraction\MagmaWorks.ForceMomentInteraction.csproj" />
-    <ProjectReference Include="..\IForceMomentInteraction\MagmaWorks.IForceMomentInteraction.csproj" />
-    <ProjectReference Include="..\Serialization\MagmaWorks.ForceMomentInteraction.Serialization.csproj" />
+    <ProjectReference Include="..\ForceMomentInteraction\VividOrange.ForceMomentInteraction.csproj" />
+    <ProjectReference Include="..\IForceMomentInteraction\VividOrange.IForceMomentInteraction.csproj" />
   </ItemGroup>
 
 </Project>

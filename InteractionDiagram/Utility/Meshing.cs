@@ -1,11 +1,11 @@
-﻿using MagmaWorks.Geometry;
-using MIConvexHull;
+﻿using MIConvexHull;
 using TriangleNet.Geometry;
 using TriangleNet.Meshing;
+using VividOrange.Geometry;
 using TMesh = TriangleNet.Mesh;
 using TVertex = TriangleNet.Geometry.Vertex;
 
-namespace MagmaWorks.ForceMomentInteraction.Utility
+namespace VividOrange.ForceMomentInteraction.Utility
 {
     internal static class Meshing
     {

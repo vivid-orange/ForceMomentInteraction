@@ -1,7 +1,7 @@
 ﻿
 using TriangleNet.Topology;
 
-namespace MagmaWorks.ForceMomentInteraction.Utility
+namespace VividOrange.ForceMomentInteraction.Utility
 {
     internal struct AnalyticalFace
     {

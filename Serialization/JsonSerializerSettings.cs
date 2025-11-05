@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace MagmaWorks.ForceMomentInteraction.Serialization
+namespace VividOrange.ForceMomentInteraction.Serialization
 {
     public static class ForceMomentInteractionJsonSerializer
     {

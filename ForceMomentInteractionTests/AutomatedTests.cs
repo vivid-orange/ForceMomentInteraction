@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using MagmaWorks.ForceMomentInteraction;
-using MagmaWorks.ForceMomentInteraction.Serialization.Extensions;
-using MagmaWorks.Geometry;
+using VividOrange.ForceMomentInteraction;
+using VividOrange.Geometry;
+using VividOrange.Taxonomy.Serialization;
 
 namespace ForceMomentInteractionTests.UnitTests
 {
@@ -46,7 +46,7 @@ namespace ForceMomentInteractionTests.UnitTests
             foreach (ConstructorInfo constructor in constructors)
             {
                 object[] args = CreateConstructorArguments(constructor);
-                IForceMomentInteraction instance = (IForceMomentInteraction)constructor.Invoke(args);
+                var instance = (ITaxonomySerializable)constructor.Invoke(args);
                 Assert.NotNull(instance);
                 TestObjectsSurvivesJsonRoundtrip(instance);
             }
@@ -79,7 +79,7 @@ namespace ForceMomentInteractionTests.UnitTests
                         continue;
                     }
 
-                    if (type.Namespace.StartsWith("MagmaWorks.ForceMomentInteraction")
+                    if (type.Namespace.StartsWith("VividOrange.ForceMomentInteraction")
                       && type.BaseType.Name != "Enum"
                       && !_excludedTypes.Contains(type)
                       && type.Attributes.HasFlag(TypeAttributes.Public)
@@ -106,7 +106,7 @@ namespace ForceMomentInteractionTests.UnitTests
             }
         }
 
-        private void TestObjectsSurvivesJsonRoundtrip<T>(T obj) where T : IForceMomentInteraction
+        private void TestObjectsSurvivesJsonRoundtrip<T>(T obj) where T : ITaxonomySerializable
         {
             string json = obj.ToJson();
             Assert.NotNull(json);
@@ -116,7 +116,7 @@ namespace ForceMomentInteractionTests.UnitTests
             TestPropertiesInObjectsAreEqual(obj, deserialized);
         }
 
-        private void TestPropertiesInObjectsAreEqual<T>(T expected, T actual) where T : IForceMomentInteraction
+        private void TestPropertiesInObjectsAreEqual<T>(T expected, T actual) where T : ITaxonomySerializable
         {
             PropertyInfo[] expectedProperties = expected.GetType().GetProperties(
                 BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);

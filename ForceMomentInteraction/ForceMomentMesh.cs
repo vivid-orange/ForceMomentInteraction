@@ -1,4 +1,4 @@
-﻿namespace MagmaWorks.ForceMomentInteraction
+﻿namespace VividOrange.ForceMomentInteraction
 {
     public class ForceMomentMesh : IForceMomentMesh
     {
