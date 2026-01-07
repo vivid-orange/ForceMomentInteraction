@@ -29,7 +29,7 @@
     <PackageReference Include="VividOrange.Taxonomy.Profiles.Perimeter" Version="0.2.0" />
     <PackageReference Include="VividOrange.Taxonomy.Sections" Version="0.2.0" />
     <PackageReference Include="MIConvexHull" Version="1.1.19.1019" />
-    <PackageReference Include="MinVer" Version="6.0.0">
+    <PackageReference Include="MinVer" Version="7.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
