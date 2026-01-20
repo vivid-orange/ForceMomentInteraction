@@ -2,10 +2,10 @@
 using TriangleNet.Geometry;
 using VividOrange.ForceMomentInteraction.Utility;
 using VividOrange.Geometry;
-using VividOrange.Taxonomy.Materials;
-using VividOrange.Taxonomy.Materials.StandardMaterials.En;
-using VividOrange.Taxonomy.Profiles;
-using VividOrange.Taxonomy.Sections;
+using VividOrange.Materials;
+using VividOrange.Materials.StandardMaterials.En;
+using VividOrange.Profiles;
+using VividOrange.Sections;
 
 namespace VividOrange.ForceMomentInteraction
 {

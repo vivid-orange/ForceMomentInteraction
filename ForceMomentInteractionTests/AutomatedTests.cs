@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using VividOrange.ForceMomentInteraction;
 using VividOrange.Geometry;
-using VividOrange.Taxonomy.Serialization;
+using VividOrange.Serialization;
 
 namespace ForceMomentInteractionTests.UnitTests
 {
