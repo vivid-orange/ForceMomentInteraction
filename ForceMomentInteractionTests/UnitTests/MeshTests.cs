@@ -1,7 +1,7 @@
 using ForceMomentInteractionTests.Utility;
 using VividOrange.ForceMomentInteraction;
 using VividOrange.Geometry;
-using VividOrange.Taxonomy.Serialization;
+using VividOrange.Serialization;
 
 namespace ForceMomentInteractionTests.UnitTests
 {
