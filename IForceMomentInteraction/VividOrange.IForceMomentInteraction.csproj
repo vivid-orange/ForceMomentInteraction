@@ -24,8 +24,8 @@
 
   <ItemGroup>
     <PackageReference Include="VividOrange.ICartesianBase" Version="1.8.0" />
-    <PackageReference Include="VividOrange.Taxonomy.Serialization" Version="0.2.0" />
-    <PackageReference Include="MinVer" Version="6.0.0">
+    <PackageReference Include="VividOrange.Serialization" Version="0.1.0" />
+    <PackageReference Include="MinVer" Version="7.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

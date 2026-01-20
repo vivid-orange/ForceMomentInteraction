@@ -1,4 +1,4 @@
-﻿using VividOrange.Taxonomy.Serialization;
+﻿using VividOrange.Serialization;
 
 namespace VividOrange.ForceMomentInteraction
 {
